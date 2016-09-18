@@ -31,7 +31,7 @@
 touch webpack.config.js
 ```
 2. entry와 output 지정해주기  
-```
+```javascript
   // webpack.config.js 파일 내부에
   module.exports = {
     entry: './filename.js',
@@ -47,7 +47,7 @@ touch webpack.config.js
 #### watch 모드 활성화
 > 웹팩이 프로젝트를 감시하는 상태로 유지하며, 의존성을 지닌 모듈의 내용이 변화할 때마다 실시간으로 번들링하는 기능
 
-```
+```javascript
   // webpack.config.js 파일 내부에
   module.exports = {
     // ...
@@ -88,12 +88,12 @@ webpack -w
   ```
     * css-loader는 .css파일을 import할 수 있게 만들어줌, style-loader는 import한 .css를 실제로 사용 가능하게 만들어줌
     * 해당 .css를 사용하는 .js에 import 구문을 추가해주어야함
-    ```
+    ```javascript
     // filename.js
     import './cssfile.css';
     ```
 4. 설치한 로더 config.js에 추가해주기
-```
+```javascript
 // webpack.config.js 파일 내부에
   module.exports = {
     // ...
