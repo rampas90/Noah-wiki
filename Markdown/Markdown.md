@@ -145,6 +145,7 @@ ________________
 > 코드블럭에 특정 언어임을 명시해주면 문법 강조가 가능함
 
 ~~~
+//아래의 역슬래시(\)는 빼고 사용해야함
 \```javascript
 	function testFunction(message) {
 		console.log(message);
