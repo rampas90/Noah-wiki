@@ -143,6 +143,7 @@ ________________
 
 ### 코드블럭 문법 강조
 > 코드블럭에 특정 언어임을 명시해주면 문법 강조가 가능함
+
 ~~~
 ```javascript
 	function testFunction(message) {
