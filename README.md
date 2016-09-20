@@ -4,4 +4,4 @@
 ### 목차
 * [Git](https://blog.outsider.ne.kr/572): Outsider's Dev Story 자료
 * [Markdown](./Markdown/Markdown.md)
-* [Webpack](./javascript/Webpack.md)
+* [Webpack](./Javascript/Webpack.md)
