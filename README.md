@@ -1,2 +1,7 @@
 # Noah-wiki
-프로그래밍과 관련된 모든 정보의 집합체
+지극히 사적이고 성의없는 프로그래밍 자료의 집합체
+
+### 목차
+* [Git](https://blog.outsider.ne.kr/572): Outsider's Dev Story 자료
+* [Markdown](./Markdown/Markdown.md)
+* [Webpack](./javascript/Webpack.md)
