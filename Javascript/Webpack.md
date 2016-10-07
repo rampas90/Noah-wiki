@@ -17,8 +17,8 @@
 * 대규모 프로젝트에 적합함
 
 ### 웹팩의 설치
-```
-// 터미널 창에서
+```bash
+# 터미널 창에서
 (sudo) npm install -g webpack
 ```
 
@@ -26,8 +26,8 @@
 > webpack.config.js는 **웹팩의 수많은 옵션들을 파일화**하여 남겨둔 것, 웹팩 번들링에 있어서 필수 요소라 할 수 있음
 
 1. webpack.config.js 생성하기
-```
-// 터미널 창에서
+```bash
+# 터미널 창에서
 touch webpack.config.js
 ```
 2. entry와 output 지정해주기  
@@ -55,10 +55,10 @@ touch webpack.config.js
   }
 ```
 또는
-```
-// 터미널 창에서
+```bash
+# 터미널 창에서
 webpack -w
-// 또는 webpack --watch
+또는 webpack --watch
 ```
 
 #### [매우중요] loader 활용
@@ -66,24 +66,24 @@ webpack -w
 
 1. 로더를 활용하려면...
   * `package.json`이 필요
-  ```
-  // package.json이 없는 경우, 프로젝트 최상단 폴더에서, nodejs가 설치되어있어야함
+  ```bash
+  # package.json이 없는 경우, 프로젝트 최상단 폴더에서, nodejs가 설치되어있어야함
   npm init
   ```
 2. 필요한 로더 설치
   * 사용자의 필요에따라 다양한 로더를 선택하여 설치가능
-  ```
-  // package.json이 위치한 폴더에서
+  ```bash
+  # package.json이 위치한 폴더에서
   npm install --save-dev `필요한로더이름`
   ```
   * 이후에 `package.json`의 devDependencies 항목에 해당 로더가 추가된 것을 확인할 수 있음
 3. 자주쓰는 로더
   * 자바스크립트 es2015 => es5 변환
-  ```
+  ```bash
   npm install --save-dev babel-loader babel-core babel-preset-es2015
   ```
   * css 로더
-  ```
+  ```bash
   npm install --save-dev css-loader style-loader
   ```
     * css-loader는 .css파일을 import할 수 있게 만들어줌, style-loader는 import한 .css를 실제로 사용 가능하게 만들어줌
@@ -125,7 +125,7 @@ webpack -w
 ### Development Server 활용하기
 > 개발 환경을 위한 임시 서버를 손쉽게 셋팅할 수 있음
 
-```
+```bash
 npm install -g webpack-dev-server
 ```
 * 이후에 `webpack-dev-server` 명령어를 통해 서버 구동 가능
@@ -133,10 +133,10 @@ npm install -g webpack-dev-server
 ### 웹팩 production용으로 번들링하기
 > minification: 주석이나 변수명을 간소화하여 파일의 용량을 줄이는 작업
 
-```
-// 터미널에서
+```bash
+# 터미널에서
 webpack -p
-// 또는 webpack --optimize-minimize
+또는 webpack --optimize-minimize
 ```
 
 # 참고자료
