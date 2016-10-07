@@ -153,6 +153,7 @@ ________________
 	}
 \```
 ~~~
+	* [코드블럭을 지원하는 언어 리스트](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown)
 
 ### 할일 목록
 > 기존 리스트에서 확장된 형태의 리스트를 만들 수 있음
